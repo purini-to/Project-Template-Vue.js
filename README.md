@@ -1,2 +1,2 @@
 # Project-Template-Vue.js
-README!!
+## Vue.jsを使用したプロジェクト開始用のテンプレート
