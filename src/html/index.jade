@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title TODO サンプル
+    link(type="text/css", rel="stylesheet", href="./css/app.css")
+  body
+    #app
+      .header(role="header").
+        TODO
+      nav
+        ul.menu
+          li.menu-list
+            a(href="#") メニュー１
+          li.menu-list
+            a(href="#") メニュー１
+      div
+        input(type="text", v-model="text")
+      p {{ text }}
+    script(src="./js/app.js")
